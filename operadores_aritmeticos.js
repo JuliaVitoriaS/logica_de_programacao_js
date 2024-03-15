@@ -18,4 +18,8 @@ console.log (`A subtração dos números é ${subtracao}`);
 console.log (`A multiplicação dos números é ${multiplicacao}`);
 console.log (`A divisão dos números é ${divisao}`);
 console.log (`O resto da divisão dos números é ${resto}`);
+console.log (`O numero1 elevado à potencia do numero2 é ${numero1}`);
+console.log (`O numero1 elevado à potencia do numero2 é ${numero1 * numero2
+}`);
+
 

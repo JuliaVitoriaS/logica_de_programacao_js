@@ -63,6 +63,40 @@ Operadores de atribuição
 * `--` -> atribuição com **decremento 2** (pode ser *pré ou *pós* decremento)
 
 
+## operadores_comparacao.js
+
+Neste arquivo conhecemos os operadores de comparção e a estrutura lógica de decisão **if_else**
+
+~~~js
+if (condicao ) {
+    console.log ('VERDADEIRO');
+} else {
+    console.log('FALSO');
+}
+
+~~~
+ Esta estrutura exibe no console se a condição testada  é verdadeira  ou falsa. A condição armazena o resultado da comparação entre duas variaveis, como segue 
+ ~~~js
+ const a = a, == b;
+ ~~~
+
+ ### Operadores de comparação:
+
+ // Operadores de comparação
+// `==` é igual
+// `!=` não é igual
+// `>` maior que 
+// `<` menor que
+// `>=` maior OU igual
+// `<=` menor OU igual
+// `===` é estritamente igual (valor E tipo) 
+// `!==` não é estritamente igual (valor OU tipo)
+
+
+
+
+
+
 
 
 
