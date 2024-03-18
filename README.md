@@ -93,6 +93,26 @@ if (condicao ) {
 // `!==` não é estritamente igual (valor OU tipo)
 
 
+## desafio3.js
+
+Crie um convertor de temperatura entre as escalas Celsius, Fahrenehit e kelvin.
+O usuário deve digitar a temperaturan a ser convertida e a escala  da temperatura atuak e a escala paraa qual p valor deve ser convertido.
+
+entradas: valor atual da temperatura, escala ataul da temperatura, escala para exibição (conversão).
+
+formulas :
+
+De | Para | Formula
+---- |------|--------
+Celsius |Fahrenheit |tF = (tC * 9/5)+ 32
+Celsius |Kelvin | tk =tC + 273.15
+Fahrenheit |Celsius| tC= (tF -32)* 5/9
+Fahrenheit |Kelvin |tK = (tF = 459.67) * 5/9 
+Kelvin | Celsius | tC -tK - 273.15
+Kelvin |Fahrenheit |tF = (tK -273.15) * 9/5 - 459.67
+
+
+
 
 
 

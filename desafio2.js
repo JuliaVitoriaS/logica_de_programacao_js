@@ -19,17 +19,20 @@
 
 //Organização Mundial da Saúde (OMS): https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
 
-const altura = window.prompt ('Digite a sua altura:');
-const peso = window.prompt ('Digite o seu peso');
-const imc= peso/altura**2;
-if (imc <= 18.5){
-    window.alert ('Abaixo do peso')
- }else if (imc <= 24.9) {
-    window.alert ('Peso normal') 
- }else if (imc <= 29.9) {
-    window.alert ('Sobrepeso')
- }else if (imc <=34.9) {
-    window.alert ('Obesidade grau 1')
- }
+ const altura = 1.79, 
+        peso = 83,
+        imc = peso / altura ** 2;
 
+   if (imc < 18.5) {
+      console.log (`IMC: ${imc} -- Abaixo de peso`);
+   }  else if  (imc > 18.5 && imc <24.9) {
+
+      console.log (`IMC: ${imc} --peso normal`);
+   } else if (imc > 25.0 && imc < 29.9) {
+
+      console.log (`IMC: ${IMC}-- Sobrepeso`); 
+   } else if (imc >= 25 && imc < 30 ){
+      console.log
+   }
+      
 
