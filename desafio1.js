@@ -14,9 +14,9 @@ const
  if ( media >= 7) {
     console.log (`O aluno foi APROVADO com média ${media.toFixed(2)}
     `);
- } else if (media)
+ } else if (media);
 
-const condicao = (nota1 + nota2 + nota3)/3;
+const condicao =  (nota1 + nota2 + nota3)/3;
 
 
 if (condicao >= 7) {
