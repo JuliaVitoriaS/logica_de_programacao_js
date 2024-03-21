@@ -1,3 +1,36 @@
+
+function CalculoIMC(Peso, Altura) {
+   const
+    Peso = window.prompt('Digite seu peso:'),
+    Altura = window.prompt('Digite sua altura:'),
+    imc = peso / altura ** 2;
+ 
+    const imc = Peso / Altura ** 2;
+    let mensagem;
+    
+
+if (imc < 18.5) {
+   mensagem`IMC: ${imc.toFixed(1)} --> Abaixo do peso`;
+
+} else if (imc < 25) {
+    mensagem`IMC: ${imc.toFixed(1)} --> Peso normal`;
+
+} else if (imc < 30) {
+    mensagem`IMC: ${imc.toFixed(1)} --> Sobrepeso`;
+
+} else if (imc < 35) {
+    mensagem`IMC: ${imc.toFixed(1)} --> Obesidade grau I`;
+
+} else if (imc < 40) {
+    mensagem`IMC: ${imc.toFixed(1)} --> Obesidade grau II`;
+
+} else {
+   mensagem`IMC: ${imc.toFixed(1)} --> Obesidade grau III`;
+}
+}
+
+return mensagem;
+
 //Crie um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
 
 //Orientações:
@@ -19,20 +52,4 @@
 
 //Organização Mundial da Saúde (OMS): https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
 
- const altura = 1.79, 
-        peso = 83,
-        imc = peso / altura ** 2;
-
-   if (imc < 18.5) {
-      console.log (`IMC: ${imc} -- Abaixo de peso`);
-   }  else if  (imc > 18.5 && imc <24.9) {
-
-      console.log (`IMC: ${imc} --peso normal`);
-   } else if (imc > 25.0 && imc < 29.9) {
-
-      console.log (`IMC: ${IMC}-- Sobrepeso`); 
-   } else if (imc >= 25 && imc < 30 ){
-      console.log
-   }
-      
-
+ 
