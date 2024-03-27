@@ -7,34 +7,45 @@
 </head>
 <body>
     <h1>Programinhas</h1>
+
     <button type =" button" onclick="CalculoIMC()"> Calculadora IMC </button>
     <button type =" button" onclick="ConverteTemperatura()">ConverteTemperatura</button>
-    
+    <button type ="reset" id="btLimpaIMC" >Limpar </button>
 
     <h2>Calculadora IMC</h2>
+    <form action="" id="formIMC">
 
    <label for="Peso">Peso:</label>
     <input type ="number" id="Peso" step="0,5" min ="0" max="1000">
     
   <button type ="button" id="btCalcIMC">Calcular IMC</button>
-  <button type = "reset" >Limpar</button>
+  <button type = "reset"> Limpar</button>
 
     <label for="Altura">Altura:</label>
     <input type ="number" id="Altura" step="0.01" min="0" max ="3.00">
-    
-    
-    <script src = "desafio2'.js"></script>
+
+
+
+    <script src = "desafio2.js"></script>
     <script src = "desafio3.js"></script>
     <script>
         document.querySelector("#btCalcIMC").addEventListener('click',
      function() {
-              const Peso =document.querySelector('#Peso').value;
-              const Altura =document.querySelector('#Altura').value;
-              const imc = CalculoIMC(Peso, Altura);
-              const imc =CalculoIMC(Peso,Altura);
+              const Peso = document.querySelector('#Peso').value;
+              const Altura = document.querySelector('#Altura').value;
+              const imc = CalculoIMC(Peso,Altura);
               console.log (imc);
-              
+              document.querySelector('#resultadoIMC').innerHTML = imc;
+             // parte de dentro do HTML) -> innerHTML
+            
         });
+        document.querySelector('#btLimpaIMC').addEventListener
+        ('click', function() {
+         document.querySelector('#resultadoIMC'),innerHTML ='';
+
+        });
+
+        
     </script>
 </body>
 </html>
