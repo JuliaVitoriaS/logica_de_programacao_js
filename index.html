@@ -35,8 +35,8 @@
               const Altura = document.querySelector('#Altura').value;
               const imc = CalculoIMC(Peso,Altura);
               console.log (imc);
-              document.querySelector('#resultadoIMC').innerHTML = imc;
-             // parte de dentro do HTML) -> innerHTML
+              document.querySelector('#resultadoIMC').innerHTML  =imc;
+             // parte de dentro do HTML) -> innerHTML 
             
         });
         document.querySelector('#btLimpaIMC').addEventListener
@@ -44,6 +44,31 @@
          document.querySelector('#resultadoIMC'),innerHTML ='';
 
         });
+
+        
+
+
+
+
+
+// fim do desafio 2
+
+// inicio Desefio 3
+document.querySelector('btConverteTemp').addEventListener('click', function () {
+
+
+    const temperaturaAtual = document.querySelector('#valorTemperatura')
+})
+
+
+
+
+
+
+
+
+
+
 
         
     </script>
