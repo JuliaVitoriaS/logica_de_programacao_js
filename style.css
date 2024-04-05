@@ -17,21 +17,17 @@ h1 {
     color:burlywood(19, 90, 222);
 }body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color:cornflowerblue;
-    color:bisque;
-    margin: 0;
+    background-color:rgb(86, 106, 202);
+    color:rgb(19, 43, 116);
+
+   
     padding: 0;
     line-height: 3.0; 
     text-align: center; 
     overflow-x: hidden; 
-    margin-top: 10px; /* Margem de 10 pixels no topo */
-    margin-right: 20px; /* Margem de 20 pixels à direita */
-    margin-bottom: 30px; /* Margem de 30 pixels na parte inferior */
-    margin-left: 40px; /* Margem de 40 pixels à esquerda */
-    border-radius: 34px; /* Define o raio da borda para 20 pixels */
-   
+
 }body {
-    background-image: url('memenazare.webp');
+  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

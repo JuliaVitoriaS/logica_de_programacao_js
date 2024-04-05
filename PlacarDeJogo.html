@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar de Jogo</title>
+</head>
+<body>
+    <h1>Placar de Jogo</h1>
+
+
+    <!-- time 1 -->
+ <label for="time1">Digite o resultado do primeiro time</label>   
+<input type="number" id="time1"> 
+
+<!--  time 2 -->
+<label for="time2">Digite o resultado do segundo time</label>   
+<input type="number" id="time2"> 
+
+<button type="button" id="botao"> resultado </button>
+
+<script>
+
+    // funcionalidade do botão     
+
+// html    //  localizador          adiciona uma função para a ferrementa
+document.querySelector('#botao').addEventListener('click', function(){
+    const time1 = document.querySelector ('#time1').value;
+    const time2 = document.querySelector ('#time2').value;
+
+    comparacao(time1, time2)
+
+})
+
+function comparacao(time1, time2){
+    let msg;
+    if (time1 > time2) {
+       msg = 'o time 1 venceu o o jogo'
+    }else if (time2 > time1) {
+        msg = 'o time 2 venceu o jogo'
+    }else{
+        msg = 'empate'
+    }
+}
+
+</script>
+</body>
+
+</html>
