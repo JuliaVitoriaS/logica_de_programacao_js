@@ -22,6 +22,7 @@ git config --global --unset  user.email
 git clone https://github.com/<usuario>/<repositorio>.git
 ~~~
 11. Abra o projeto clonodo no VS Code:
+
 ~~~bash
 code -r <repositorio_local>/
 ~~~

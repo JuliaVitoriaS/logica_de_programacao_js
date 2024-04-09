@@ -1,34 +1,60 @@
-/* Redefinindo alguns estilos padrão do navegador */
-/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
 body {
-    background-color:palegoldenrod;
-    font-family: Arial, sans-serif;
-    margin: 10; 
-    padding: 10; 
+    font-family: 'Ubuntu',sans-serif;
+    background-color: beige;
 
 
 }
 
-div {
-    height: 500px;
+.titulo-pagina {
+ width: 600px;
+ margin:2rem auto;
+ text-align:center;
+ font-size: 2.2rem;
+
+
+}
+main {
     width: 800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border:1px solid black; /*shorthand para a borda */
+    margin:auto;
+    background-color: #bebebe;
+    box-shadow: 4px 4px 2px #888;
+
 }
-h1 {
-    color:burlywood(19, 90, 222);
-}body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color:rgb(86, 106, 202);
-    color:rgb(19, 43, 116);
+.elementos-em-linha{
+    display: flex;
+    justify-content: space-between;
 
-   
-    padding: 0;
-    line-height: 3.0; 
-    text-align: center; 
-    overflow-x: hidden; 
+}
 
-}body {
-  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.botoes {
+    margin:2rem 0;
+    display: flex;
+    gap:1rem;
+}
+button{
+    width: 100%;
+    line-height: 2.2px;
+}
+
+input {
+    width:line
+
+}
+
+#resultado {
+    border: 1px solid black;
+    height: 2rem;
+    margin: 2rem 0 0 0;
+    border-radius: 4px;
 }

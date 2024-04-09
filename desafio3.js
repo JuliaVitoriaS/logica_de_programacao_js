@@ -43,7 +43,7 @@ if ( !isNaN(temperaturaAtual)) {
        (`temperatura = ${FC.toFixed(2)}`);
     }
     else if ( atual == "f" && conversao == "k"){
-      temperaturaConvertida = (temperaturaAtual 
+      temperaturaConvertida = (temperaturaAtual )
     }
     else if (atual == "k" && conversao == "c"){
       window.alert (`temperatura = ${KC.toFixed(2)}`);
