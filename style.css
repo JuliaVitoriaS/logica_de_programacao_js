@@ -21,7 +21,7 @@ body {
 
 }
 main {
-    width: 800px;
+    width: 600px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -41,15 +41,23 @@ main {
     margin:2rem 0;
     display: flex;
     gap:1rem;
+    
 }
 button{
     width: 100%;
     line-height: 2.2px;
+    border:none;
+    border: 4px;
+    /*outline:none;*/
+    
 }
 
 input {
-    width:line
-
+    width:line;
+    border: 1px solid #000000;
+    padding-left: 8px;
+    margin-top: 8px;
+    
 }
 
 #resultado {
@@ -57,4 +65,49 @@ input {
     height: 2rem;
     margin: 2rem 0 0 0;
     border-radius: 4px;
+    display:flex;
+    flex: row; /*estabelece a direção de alinhamento*/
+    justify-content: center; /*alinha no eixo principal */
+    align-items: center; /*alinha o eixo secundario*/
+
 }
+
+button {
+    border:none;
+    border-radius: 4px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+/*só dura enquanto o mause estiver pressionado no botão */
+button:active{
+box-shadow: inset 1px 1px 1px #555;
+}
+
+#btClassificar {
+    background-color: #2078ec;
+    color:#ffff; 
+
+}
+#btClassificar:hover{
+    background-color: #2078ec;
+    
+}
+#btClassificar:active{
+    background-color: #1d6dd6;
+}
+
+#btLimpar {
+ background-color: rgb(223, 53, 53);
+}
+
+#btLimpar:hover {
+background-color: rgb(223, 53, 53);
+}
+
+#btLimpar:active {
+background-color:#e82375 ;
+}
+
