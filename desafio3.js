@@ -9,7 +9,7 @@
 
 
 function ConverteTemperatura(temperaturaAtual, escalaAtual , escalaConversao) {
-let temperaturaConvertida, msgErro ='Ok';
+let temperaturaConvertida, msgErro ='Ok';}
 
 
 const temperatura = parseFloat(window.prompt('digite a temperatura'));
