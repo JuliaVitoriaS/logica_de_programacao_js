@@ -21,7 +21,8 @@ body {
 
 }
 main {
-    width: 600px;
+    width: 700px;
+    height: 200px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -48,7 +49,7 @@ button{
     line-height: 2.2px;
     border:none;
     border: 4px;
-    /*outline:none;*/
+    outline:none;
     
 }
 
@@ -69,12 +70,15 @@ input {
     flex: row; /*estabelece a direção de alinhamento*/
     justify-content: center; /*alinha no eixo principal */
     align-items: center; /*alinha o eixo secundario*/
-
+    box-shadow: 1px;
 }
 
 button {
     border:none;
-    border-radius: 4px;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 1px;
+    margin-top: 2rem 0 0 0;
 }
 
 
@@ -83,7 +87,7 @@ button:hover{
 }
 /*só dura enquanto o mause estiver pressionado no botão */
 button:active{
-box-shadow: inset 1px 1px 1px #555;
+box-shadow: inset 1px 1px 1px #d11111;
 }
 
 #btClassificar {
@@ -116,7 +120,7 @@ background-color:#e82375 ;
 }
 
 .acao-alternativa:hover {
-    background-color:rgb, rgb(49, 210, 49);
+    background-color: rgb(49, 210, 49);
 }
 .acao-alternativa:active {
     background-color: rgb(13, 156, 13);
