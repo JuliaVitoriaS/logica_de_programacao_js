@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=< h1 > Busca de um nome </ h1 >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlacarDeJogo</title>
+</head>
+<body>
+    <script>
+    let time1 = (prompt("Digite o nome do 1° time"));
+    let time2 = (prompt("Digite o nome do 2° time"));
+    let PlacarDoTime1 = (prompt("Digite quantos gols o time 1 marcou"));
+    let PlacarDoTime2= (prompt("Digite quantos gols o time 2 marcou"));
 
-   
+if (PlacarDoTime1 > PlacarDoTime2) {
+    alert (` O placar do final do jogo foi: ${time2} ${PlacarDoTime2} - ${PlacarDoTime1} ${time1} time 1 venceu o jogo !`);
+    } else if (PlacarDoTime2 > PlacarDoTime1){
+     alert (` O placar do final do jogo foi: ${time2} ${PlacarDoTime2} - ${PlacarDoTime1} ${time1} time 2 venceu o jogo !`);
+    } else {
+     alert (` O placar do final do jogo foi: ${time2} ${PlacarDoTime2} - ${PlacarDoTime1} ${time1} EMPATE !`);
+    }
+
+
+
+
+
+
+    </script>
+    
 </body>
 </html>
