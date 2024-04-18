@@ -2,12 +2,17 @@
 
 *{
     box-sizing: border-box;
+    border-radius: 4px;
+
+    
+    
 }
 
 
 body {
     font-family: 'Ubuntu',sans-serif;
-    background-color: beige;
+    background-color: rgb(69, 85, 168);
+    border-radius: 5px;
 
 
 }
@@ -28,8 +33,9 @@ main {
     border-color: black;
     border:1px solid black; /*shorthand para a borda */
     margin:auto;
-    background-color: #bebebe;
-    box-shadow: 4px 4px 2px #888;
+    background-color:lightskyblue;
+    box-shadow: 4px 4px 2px #3d1111;
+    border-radius: 4px;
 
 }
 .elementos-em-linha{
@@ -58,6 +64,7 @@ input {
     border: 1px solid #000000;
     padding-left: 8px;
     margin-top: 8px;
+    border-radius: 4px;
     
 }
 
@@ -124,4 +131,11 @@ background-color:#e82375 ;
 }
 .acao-alternativa:active {
     background-color: rgb(13, 156, 13);
+}
+
+.tamanhodafonte {
+    background-color: #f4ebea;
+    margin-top: 2px;
+    padding-block-start:4px ;
+    text-align: center;g
 }
