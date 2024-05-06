@@ -1,5 +1,38 @@
 //Ancora do exercício 1
-const ancoras =
+const ancoras = [
+{ "url": "/index.html", "texto": "Home"},
+{ "url": "exercicios/exercicios1.html" ,"texto": "Exerc.1"},
+{ "url": "exercicios/exercicios3.html" ,"texto": "Exerc.3"},
+];
+
+
+function criaAncora (url, texto){
+    const ancora = document.createElement('a');
+    ancora.setAttribute('href', '/index.html');
+    ancora.innerHTML = texto;
+    
+     return ancora;
+}
+
+function criarAngoraLi (ancora ){
+    const li = document.createElement ('li');
+    li.appendChild(ancora);
+  
+
+    return li;
+
+
+function criaUlNav(ancoras) {
+  const ul = document.createElement ('ul');
+    ancoras.foreEach(ancora => {
+        const a = criaAncora(ancora.url, ancora.texto);
+        const li = criarAngoraLi(a);
+        ul.appendChild(li);
+
+
+    })
+    
+}
 
 
 
@@ -8,18 +41,18 @@ const ancoras =
 
 // <a> do home
 
-const aHome= criaAngora('/index.html', 'Home');
+// const aHome= criaAngora('/index.html', 'Home');
 
 //<li> do home
-const liHome = li(aHome);
+// const liHome = li(aHome);
 
-//<a> exercicio 1
-const aExercicios1 =criaAngora('/exercicios/exercicios1.html', 'Exrc.1');
+// //<a> exercicio 1
+// const aExercicios1 =criaAngora('/exercicios/exercicios1.html', 'Exrc.1');
 
-// <li> do exercicio 1
+// // <li> do exercicio 1
 
-const liExercicios1 =document.createAttribute ('li')
-liExercicios1.appendChild(aExercicios1);
+// const liExercicios1 =document.createAttribute ('li')
+// liExercicios1.appendChild(aExercicios1);
 
 
 
@@ -65,25 +98,25 @@ const linkNavbar = document.createElement('link');
 linkNavbar.setAttribute('rel', 'steyleheet');
 linkNavbar.setAttribute('href', '/css/navbar.css');
 
-document.head.appendChild(linkNavbar);
+document.head.appendChild(linkNavbar);}
 
 
-function criaAncora (url, texto){
-    const ancora = document.createElement('a');
-    ancora.setAttribute('href', '/index.html');
-    ancora.innerHTML = texto;
+// function criaAncora (url, texto){
+//     const ancora = document.createElement('a');
+//     ancora.setAttribute('href', '/index.html');
+//     ancora.innerHTML = texto;
     
-     return ancora;
-}
+//      return ancora;
+// }
 
-function criarAngoraLi (ancora ){
-    const li = document.createElement ('li');
-    li.appendChild(ancora);
+// function criarAngoraLi (ancora ){
+//     const li = document.createElement ('li');
+//     li.appendChild(ancora);
   
 
-    return li;
+//     return li;
     
 
-}
+// }}
 
   
