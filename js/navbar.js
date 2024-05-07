@@ -2,7 +2,7 @@
 const ancoras = [
     { "url": "/index.html", "texto": "Home"},
     { "url": "exercicio/exercicio1.html" ,"texto": "Exerc.1"},
-    { "url": "classificacao_triangulo.html" ,"texto": "Exerc.3"},
+    { "url": "exercicio/exercicio3.html" ,"texto": "Exerc.3"},
     { "url": "PlacarDeJogo.html", "texto": "Exerc.PlacarJogo"},
 ];
 
@@ -93,11 +93,14 @@ header.appendChild(divMenuLogo);
 // document.body.insertBefore(nav, document.body.firstChild);
 document.body.insertAdjacentElement('afterbegin', header);
 
+
+//** Estilos do Navbar */
 const linkNavbar = document.createElement('link');
 linkNavbar.setAttribute('rel', 'stylesheet');
 linkNavbar.setAttribute('href', '/navbar.css');
 
-document.head.appendChild(linkNavbar);
+document.querySelector('[href="/css/responsividade.css"]').insertAdjacentElement('beforebegin',linkNavbar);
+
 
 
 // function criaAncora (url, texto){
