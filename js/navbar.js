@@ -1,8 +1,8 @@
 //Ancora do exercício 1
 const ancoras = [
     { "url": "/index.html", "texto": "Home"},
-    { "url": "exercicios/exercicios1.html" ,"texto": "Exerc.1"},
-    { "url": "exercicios/exercicios3.html" ,"texto": "Exerc.3"},
+    { "url": "exercicio/exercicio1.html" ,"texto": "Exerc.1"},
+    { "url": "classificacao_triangulo.html" ,"texto": "Exerc.3"},
     { "url": "PlacarDeJogo.html", "texto": "Exerc.PlacarJogo"},
 ];
 
