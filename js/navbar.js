@@ -40,20 +40,20 @@ function criaUlNav(ancoras) {
 
 
 
-// <a> do home
+//  <a> do home
 
-// const aHome= criaAngora('/index.html', 'Home');
+//  const aHome= criaAngora('/index.html', 'Home');
 
-//<li> do home
-// const liHome = li(aHome);
+// <li> do home
+//  const liHome = li(aHome);
 
-// //<a> exercicio 1
+//  <a> exercicio 1
 // const aExercicios1 =criaAngora('/exercicios/exercicios1.html', 'Exrc.1');
 
-// // <li> do exercicio 1
+// <li> do exercicio 1
 
-// const liExercicios1 =document.createAttribute ('li')
-// liExercicios1.appendChild(aExercicios1);
+//  const liExercicios1 =document.createAttribute ('li')
+//  liExercicios1.appendChild(aExercicios1);
 
 
 
